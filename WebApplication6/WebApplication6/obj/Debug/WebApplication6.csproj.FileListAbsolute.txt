@@ -181,7 +181,6 @@ C:\Users\Guner\Source\Repos\Basic-template\WebApplication6\WebApplication6\bin\N
 C:\Users\Guner\Source\Repos\Basic-template\WebApplication6\WebApplication6\bin\System.Web.Optimization.dll
 C:\Users\Guner\Source\Repos\Basic-template\WebApplication6\WebApplication6\bin\WebGrease.dll
 C:\Users\Guner\Source\Repos\Basic-template\WebApplication6\WebApplication6\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Guner\Source\Repos\Basic-template\WebApplication6\WebApplication6\bin\MySql.Data.xml
 C:\Users\Guner\Source\Repos\Basic-template\WebApplication6\WebApplication6\bin\System.Web.Optimization.xml
 C:\Users\Guner\Source\Repos\Basic-template\WebApplication6\WebApplication6\bin\Antlr3.Runtime.pdb
 C:\Users\Guner\Source\Repos\Basic-template\WebApplication6\WebApplication6\bin\Microsoft.AspNet.FriendlyUrls.xml
