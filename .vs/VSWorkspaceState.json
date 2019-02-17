@@ -1,6 +1,15 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\WebApplication6\\WebApplication6",
+    "\\WebApplication6\\WebApplication6\\Content\\bootstrap-3.3.7",
+    "\\WebApplication6\\WebApplication6\\obj",
+    "\\WebApplication6\\WebApplication6\\obj\\Release",
+    "\\WebApplication6\\WebApplication6\\obj\\Release\\AspnetCompileMerge",
+    "\\WebApplication6\\WebApplication6\\obj\\Release\\AspnetCompileMerge\\Source",
+    "\\WebApplication6\\WebApplication6\\obj\\Release\\AspnetCompileMerge\\Source\\Content",
+    "\\WebApplication6\\WebApplication6\\obj\\Release\\AspnetCompileMerge\\Source\\Content\\bootstrap-3.3.7"
   ],
+  "SelectedNode": "\\README.md",
   "PreviewInSolutionExplorer": false
 }

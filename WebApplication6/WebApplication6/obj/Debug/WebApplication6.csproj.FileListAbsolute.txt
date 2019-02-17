@@ -190,7 +190,6 @@ C:\Users\Guner\Source\Repos\Basic-template\WebApplication6\WebApplication6\bin\M
 C:\Users\Guner\Source\Repos\Basic-template\WebApplication6\WebApplication6\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\Users\Guner\Source\Repos\Basic-template\WebApplication6\WebApplication6\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\Guner\Source\Repos\Basic-template\WebApplication6\WebApplication6\bin\Microsoft.AI.Web.xml
-C:\Users\Guner\Source\Repos\Basic-template\WebApplication6\WebApplication6\obj\Debug\WebApplication6.csprojAssemblyReference.cache
 C:\Users\Guner\Source\Repos\Basic-template\WebApplication6\WebApplication6\obj\Debug\WebApplication6.Properties.Resources.resources
 C:\Users\Guner\Source\Repos\Basic-template\WebApplication6\WebApplication6\obj\Debug\WebApplication6.csproj.GenerateResource.cache
 C:\Users\Guner\Source\Repos\Basic-template\WebApplication6\WebApplication6\obj\Debug\WebApplication6.csproj.CoreCompileInputs.cache
