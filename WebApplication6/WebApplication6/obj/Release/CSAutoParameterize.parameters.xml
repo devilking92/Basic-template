@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="WebAppConString-Web.config Connection String" description="WebAppConString Connection String used in web.config by the application to access the database." defaultValue="server=localhost;username=root;password=;database=guner_db;port=3306;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\prog\\C\#\ WebSite\\WebApplication6\\WebApplication6\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='WebAppConString']/@connectionString" />
+  </parameter>
+</parameters>

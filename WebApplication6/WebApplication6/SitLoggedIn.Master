@@ -1,0 +1,118 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SitLoggedIn.Master.cs" Inherits="WebApplication6.SitLoggedIn" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - My ASP.NET Application</title>
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link rel="stylesheet" href="Content/footer-distributed-with-address-and-phones.css">
+    <link href="~/Content/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="Content/bootstrap-3.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Content/bootstrap-3.3.7/dist/css/bootstrap-theme.min.css">
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form runat="server">
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                <%--Framework Scripts--%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="respond" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+                <%--Site Scripts--%>
+            </Scripts>
+        </asp:ScriptManager>
+
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" runat="server" href="~/">Application name</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a runat="server" href="~/">Home</a></li>
+                        <li><a runat="server" href="~/About">About</a></li>
+                        <li><a runat="server" href="~/Contact">Contact</a></li>
+                    </ul>
+                    <div class="login">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><asp:Label ID="userLabel1" Text="no user" runat="server" class="loginName"/></li>
+                            <li><a runat="server" href="~/Registration">Registration</a></li>
+                            <li><a runat="server" href="~/Logout">Log Out</a></li>
+                        </ul>
+                    </div>  
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid body-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <hr />
+            <footer class="footer-distributed">
+			    <div class="footer-left">
+				    <h3>Company<span>logo</span></h3>
+				    <p class="footer-links">
+					    <a href="~/Default.aspx">Home</a>
+					    ·
+					    <a href="~/About.aspx">About</a>
+					    ·
+					    <a href="~/Contact.aspx">Contact</a>
+				    </p>
+				    <p class="footer-company-name">Company Name &copy; 2017</p>
+			    </div>
+			    <div class="footer-center">
+				    <div>
+					    <i class="fa fa-map-marker"></i>
+					    <p><span>21 Revolution Street</span> Paris, France</p>
+				    </div>
+				    <div>
+					    <i class="fa fa-phone"></i>
+					    <p>+1 555 123456</p>
+				    </div>
+				    <div>
+					    <i class="fa fa-envelope"></i>
+					    <p><a href="mailto:support@company.com">support@company.com</a></p>
+				    </div>
+			    </div>
+			    <div class="footer-right">
+				    <p class="footer-company-about">
+					    <span>About the company</span>
+					    Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+				    </p>
+				    <div class="footer-icons">
+					    <a href="#"><i class="fa fa-facebook"></i></a>
+					    <a href="#"><i class="fa fa-twitter"></i></a>
+					    <a href="#"><i class="fa fa-linkedin"></i></a>
+					    <a href="#"><i class="fa fa-github"></i></a>
+				    </div>
+			    </div>
+		    </footer>
+        </div>
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="Content/bootstrap-3.3.7/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,201 @@
+﻿/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding: 50px 20px 0px 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+
+@-webkit-keyframes animation_1 {
+    from {
+        background-color: red;
+    }
+
+    to {
+        background-color: green;
+    }
+}
+
+@-webkit-keyframes animation_2 {
+    50% {
+        text-indent: 150px;
+    }
+}
+
+@-webkit-keyframes animation_3 {
+    50% {
+        clip: rect(0,50px,50px,0);
+    }
+}
+
+@-webkit-keyframes animation_4 {
+    50% {
+        -webkit-transform: rotate(180deg);
+        width: 150px;
+    }
+}
+
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbar-nav > li > span {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.loginName {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    color: #999999;
+}
+
+.marketing {
+    padding:50px 0px;
+    width: 100%;
+    background-image: url(Images/background_repeat.png);
+    background-repeat: repeat;
+    background-color: #fffffa;
+}
+
+
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+.featurette1 {
+    background: red;
+    -webkit-animation: animation_1 5s infinite; /* Chrome, Safari, Opera */
+    animation: animation_1 5s infinite;
+}
+
+.featurette2 {
+    -webkit-animation: animation_2 5s infinite; /* Chrome, Safari, Opera */
+    animation: animation_2 5s infinite;
+}
+
+.featurette3 {
+    background: rgba(255,0,0,0.4);
+}
+
+.rotateImg {
+    margin: auto;
+    width: 500px;
+    -webkit-animation: animation_4 5s infinite; /* Chrome, Safari, Opera */
+    animation: animation_4 5s infinite;
+}
+
+.text-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    /*padding: 15px;*/
+    margin-bottom: 20px;
+    /*border: 1px solid transparent;*/
+    border-radius: 4px;
+    text-align: center;
+}
+
+.text-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    /*padding: 15px;*/
+    margin-bottom: 20px;
+    /*border: 1px solid transparent;*/
+    border-radius: 4px;
+    text-align:center;
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+
+    .body-content {
+        padding: 0;
+    }
+
+    .container .jumbotron, .container-fluid .jumbotron {
+        padding: 0px;
+        background-color: white;
+    }
+
+    .SliderEditImg {
+        padding-right: 10px;
+        width: 304px;
+        height: 228px;
+    }
+
+    .button-slide {
+        padding-top: 10px;
+    }
+
+    .pageHeader {
+        text-align: center;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    .featurette-heading {
+        font-size: 50px;
+        margin-top: 120px;
+    }
+
+    .featurette-divider {
+        margin: 80px 0;
+    }
+
+   
+}
+
+@media only screen and (max-device-width: 480px) {
+    .container .jumbotron, .container-fluid .jumbotron {
+        padding: 10px 0px;
+        background-color: white;
+    }
+
+    .SliderEditImg {
+        padding-right: 10px;
+        width: 204px;
+        height: 114px;
+    }
+
+    .button-slide {
+        padding-top: 10px;
+    }
+
+    #MainContent_SliderImgUpload {
+        padding-bottom: 10px;
+    }
+
+    .upload-button-panel {
+        padding-bottom: 10px;
+    }
+
+    .pageHeader {
+        text-align: center;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    .featurette-divider {
+        margin: 30px 0;
+    }
+}
