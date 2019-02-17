@@ -11,3 +11,9 @@ To run this solution, follow these steps:
 
 # About
 This is basic template of website with authentication and DB. Where you can upload, delete images if you are login with "admin" account.
+
+# Test accounts
+<ul>
+  <li>Acc: admin  - Pass: admin</li>
+  <li>Acc: user - Pass: 123</li>
+</ul>
