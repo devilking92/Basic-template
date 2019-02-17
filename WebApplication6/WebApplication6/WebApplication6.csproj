@@ -436,8 +436,6 @@
     <Content Include="Content\bootstrap-3.3.7\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Content\bootstrap-3.3.7\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Content\bootstrap-3.3.7\fonts\glyphicons-halflings-regular.woff2" />
-    <Content Include="Content\bootstrap-3.3.7\Gemfile" />
-    <Content Include="Content\bootstrap-3.3.7\Gemfile.lock" />
     <Content Include="Content\bootstrap-3.3.7\grunt\.jshintrc" />
     <Content Include="Content\bootstrap-3.3.7\grunt\configBridge.json" />
     <Content Include="Content\bootstrap-3.3.7\grunt\npm-shrinkwrap.json" />
